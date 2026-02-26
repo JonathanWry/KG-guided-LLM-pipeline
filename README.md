@@ -64,8 +64,8 @@ Final CoT files:
 
 Data access note:
 
-- Original MIMIC-III raw tables are not included in this repo. Obtain access via PhysioNet credentialing and DUA: https://physionet.org/content/mimiciii/1.4/
-- PrimeKG can be obtained from the official project resources: https://github.com/mims-harvard/PrimeKG and https://doi.org/10.7910/DVN/IXA7BM
+- Original MIMIC-III raw tables are not included in this repo.
+- PrimeKG can be obtained from the official project resources: https://github.com/mims-harvard/PrimeKG
 - CRADLE data is not included in this repo; obtain it from the original data owners/institutional process if needed for transfer experiments.
 
 ## 5. Project Structure
@@ -105,7 +105,6 @@ export WANDB_API_KEY="..."
 Notes:
 - `requirements.txt` is for additional project dependencies on top of LLaMA-Factory.
 - RAPIDS packages (`cudf`, `cugraph`, `rmm`) are optional and should be installed with conda in a CUDA-matched environment.
-- If you need Step 6.4 (`mimicToPath.py`), install RAPIDS separately, e.g. `conda install -c rapidsai -c conda-forge cudf cugraph rmm`.
 - Replace all placeholder paths in scripts/configs (for example `your_path_to_repo`, `your_path_to_output`, `your_path_to_model_checkpoint`, `your_path_to_LlamaFactory`).
 
 ### 6.2 Optional: Re-run entity mapping
@@ -116,7 +115,7 @@ python code/GPT_Filter.py
 python code/print_matched.py
 ```
 Required files: `data/prune_kg.csv`, `data/mimic/edge_text.json`, `data/mimic/node_text.json`.
-(`data/prune_kg.csv` must be prepared from PrimeKG; it is intentionally not uploaded here.)
+(`data/prune_kg.csv` must be prepared from PrimeKG; it is intentionally not uploaded here due to its large size.)
 
 ### 6.3 Generate disease-level path sets
 ```bash
