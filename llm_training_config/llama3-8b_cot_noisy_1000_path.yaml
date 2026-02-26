@@ -1,0 +1,51 @@
+### model
+model_name_or_path: meta-llama/Meta-Llama-3.1-8B-Instruct
+trust_remote_code: true
+flash_attn: auto
+resume_from_checkpoint: false
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+template: default
+deepspeed: your_path_to_LlamaFactory/examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset_dir: data
+dataset: cot_dataset_1000_patient_with_paths
+cutoff_len: 4096
+max_samples: 100000
+packing: false
+enable_thinking: true
+preprocessing_num_workers: 1
+
+### train
+learning_rate: 1.0e-5
+num_train_epochs: 10.0
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+lr_scheduler_type: cosine
+max_grad_norm: 1.0
+warmup_steps: 0
+optim: adamw_torch
+bf16: true
+ddp_timeout: 180000000
+include_num_input_tokens_seen: true
+
+### eval
+val_size: 0.2
+eval_strategy: steps
+eval_steps: 100
+per_device_eval_batch_size: 1
+
+### output
+output_dir: your_path_to_output/finetuning_noisy_output_1000_path/llama3-8b-instruct
+logging_steps: 5
+save_steps: 100
+plot_loss: true
+
+
+### wandb
+report_to: wandb
+run_name: llama3-8b_instruct_training_1000_path  # optional

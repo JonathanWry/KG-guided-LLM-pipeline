@@ -1,0 +1,36 @@
+Disease: Chronic obstructive pulmonary disease
+
+Entity: Bronchitis, not specified as acute or chronic
+Reason: Chronic bronchitis is one of the two main conditions that define COPD and is directly correlated with the disease.
+Path (similar (score=0.898)): Bronchitis (node) → drug_effect (edge) → Itraconazole (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)
+Path (similar (score=0.897)): bronchitis (node) → disease_disease (edge) → chronic obstructive pulmonary disease (node)
+
+Entity: Bronchiectasis
+Reason: Bronchiectasis may coexist with or mimic COPD, and both share chronic airway inflammation and obstruction.
+Path (exact): Bronchiectasis (node) → disease_phenotype_positive (edge) → diffuse panbronchiolitis (node) → disease_disease (edge) → chronic obstructive pulmonary disease (node)
+
+Entity: Acute cor pulmonale
+Reason: This is a serious complication of advanced COPD due to pulmonary hypertension and right heart strain.
+Path (exact (case-insensitive)): acute cor pulmonale (node) → disease_disease (edge) → acute disease (node) → disease_disease (edge) → glomerulonephritis (node) → contraindication (edge) → Phenazopyridine (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)
+
+Entity: Acute bronchitis
+Reason: COPD patients are highly susceptible to acute bronchitis exacerbations, often leading to hospitalization.
+Path (exact): Acute bronchitis (node) → phenotype_phenotype (edge) → Bronchitis (node) → drug_effect (edge) → Itraconazole (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)
+
+Entity: Postinflammatory pulmonary fibrosis
+Reason: Chronic lung injury in COPD can lead to fibrosis, and the two conditions may overlap in clinical presentation.
+Path (exact (case-insensitive)): postinflammatory pulmonary fibrosis (node) → contraindication (edge) → Caffeine (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)
+
+Entity: Pulmonary alveolar proteinosis
+Reason: Though rare, it affects gas exchange and may resemble or complicate obstructive lung disease.
+Path (exact (case-insensitive)): pulmonary alveolar proteinosis (node) → disease_phenotype_positive (edge) → Respiratory distress (node) → drug_effect (edge) → Adenosine (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)
+
+Entity: Primary pulmonary hypertension
+Reason: Pulmonary hypertension is a known complication of chronic hypoxia in COPD.
+Path (similar (score=0.990)): pulmonary hypertension, primary (node) → disease_phenotype_positive (edge) → Dyspnea (node) → drug_effect (edge) → Adenosine (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)
+Path (similar (score=0.909)): pulmonary hypertension (node) → contraindication (edge) → Trolnitrate (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)
+
+Entity: Respiratory abnormality, unspecified
+Reason: COPD is a chronic respiratory condition and would be captured under general respiratory abnormalities if not otherwise specified.
+Path (similar (score=0.957)): Abnormality of the respiratory system (node) → disease_phenotype_positive (edge) → situs inversus (node) → disease_protein (edge) → MMP9 (node) → disease_protein (edge) → chronic obstructive pulmonary disease (node)
+Path (similar (score=0.887)): Abnormal respiratory system morphology (node) → phenotype_phenotype (edge) → Abnormal lung morphology (node) → drug_effect (edge) → Salbutamol (node) → off-label use (edge) → chronic obstructive pulmonary disease (node)

@@ -1,0 +1,36 @@
+Disease: diabetes mellitus (disease)
+
+Entity: Chronic kidney disease, Stage I
+Reason: Chronic kidney disease is a major long-term complication of diabetes mellitus due to diabetic nephropathy.
+Path (similar (score=0.962)): Stage 1 chronic kidney disease (node) → phenotype_phenotype (edge) → Chronic kidney disease (node) → disease_phenotype_positive (edge) → Alstrom syndrome (node) → disease_disease (edge) → diabetes mellitus (disease) (node)
+
+Entity: Background diabetic retinopathy
+Reason: This is a classic microvascular complication of diabetes mellitus affecting the retina and is directly linked to chronic hyperglycemia.
+Path (exact (case-insensitive)): background diabetic retinopathy (node) → disease_disease (edge) → diabetic retinopathy (node) → off-label use (edge) → Lisinopril (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+
+Entity: Proteinuria
+Reason: Proteinuria is an early marker of diabetic nephropathy, reflecting kidney damage in diabetic patients.
+Path (exact): Proteinuria (node) → drug_effect (edge) → Fosinopril (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+
+Entity: Renal failure, unspecified
+Reason: End-stage renal disease often develops as a consequence of long-standing uncontrolled diabetes mellitus.
+Path (similar (score=0.940)): kidney failure (node) → contraindication (edge) → Octreotide (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+Path (similar (score=0.895)): Renal insufficiency (node) → drug_effect (edge) → Fosinopril (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+
+Entity: Obesity, unspecified
+Reason: Obesity is a major modifiable risk factor for type II diabetes mellitus, contributing to insulin resistance.
+Path (similar (score=0.966)): obesity disorder (node) → contraindication (edge) → Estradiol valerate (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+Path (similar (score=0.857)): morbid obesity (node) → contraindication (edge) → Guaifenesin (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+
+Entity: Malignant essential hypertension
+Reason: Hypertension frequently coexists with diabetes mellitus and worsens its vascular complications.
+Path (similar (score=0.920)): malignant hypertension (node) → off-label use (edge) → Esmolol (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+
+Entity: Congestive heart failure, unspecified
+Reason: Diabetes mellitus significantly increases the risk of developing heart failure due to associated coronary artery disease and metabolic changes.
+Path (similar (score=0.984)): Congestive heart failure (node) → drug_effect (edge) → Bicalutamide (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+Path (similar (score=0.983)): congestive heart failure (node) → contraindication (edge) → Estradiol valerate (node) → contraindication (edge) → diabetes mellitus (disease) (node)
+
+Entity: Idiopathic peripheral autonomic neuropathy, unspecified
+Reason: Peripheral and autonomic neuropathy are well-established complications of chronic diabetes mellitus, leading to sensory and autonomic dysfunction.
+Path (similar (score=0.980)): idiopathic peripheral autonomic neuropathy (node) → disease_disease (edge) → autonomic nervous system disease (node) → contraindication (edge) → Phenyltoloxamine (node) → contraindication (edge) → diabetes mellitus (disease) (node)

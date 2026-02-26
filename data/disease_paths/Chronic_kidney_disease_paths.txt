@@ -1,0 +1,34 @@
+Disease: Chronic kidney disease
+
+Entity: Chronic kidney disease, Stage I
+Reason: This directly represents an early stage of the disease being verified and is therefore inherently correlated and critically related.
+Path (similar (score=0.962)): Stage 1 chronic kidney disease (node) → phenotype_phenotype (edge) → Chronic kidney disease (node)
+
+Entity: Acute kidney failure with lesion of tubular necrosis
+Reason: Acute kidney injury is a known precipitating or complicating factor in chronic kidney disease, particularly with tubular damage.
+Path (similar (score=0.873)): acute kidney tubular necrosis (node) → disease_phenotype_positive (edge) → Abnormal renal tubule morphology (node) → disease_phenotype_positive (edge) → renal hypoplasia (disease) (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)
+
+Entity: Renal failure, unspecified
+Reason: This entity may represent end-stage renal disease, which is a progression from chronic kidney disease.
+Path (similar (score=0.940)): kidney failure (node) → contraindication (edge) → Sulfamethoxazole (node) → drug_effect (edge) → Renal insufficiency (node) → phenotype_phenotype (edge) → Chronic kidney disease (node)
+Path (similar (score=0.895)): Renal insufficiency (node) → phenotype_phenotype (edge) → Chronic kidney disease (node)
+
+Entity: hypertensive heart disease
+Reason: This diagnosis explicitly includes chronic kidney disease and reflects systemic complications from hypertension.
+Path (exact): hypertensive heart disease (node) → disease_disease (edge) → heart disease (node) → disease_disease (edge) → COG1-CDG (node) → disease_phenotype_positive (edge) → Renal insufficiency (node) → phenotype_phenotype (edge) → Chronic kidney disease (node)
+
+Entity: Malignant essential hypertension
+Reason: Hypertension is a leading cause and contributor to the progression of chronic kidney disease.
+Path (similar (score=0.920)): malignant hypertension (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → focal segmental glomerulosclerosis (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)
+
+Entity: diabetes mellitus (disease)
+Reason: Diabetes is a primary risk factor for the development and progression of chronic kidney disease due to diabetic nephropathy.
+Path (exact): diabetes mellitus (disease) (node) → disease_disease (edge) → Alstrom syndrome (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)
+
+Entity: Proteinuria
+Reason: Proteinuria is a hallmark sign of kidney damage and is often used to assess the severity and progression of chronic kidney disease.
+Path (exact): Proteinuria (node) → disease_phenotype_positive (edge) → Dent disease (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)
+
+Entity: Renal osteodystrophy
+Reason: This is a bone disorder directly caused by the mineral imbalances that occur in chronic kidney disease.
+Path (exact (case-insensitive)): renal osteodystrophy (node) → off-label use (edge) → Cholecalciferol (node) → contraindication (edge) → primary hyperoxaluria (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)

@@ -1,0 +1,87 @@
+{
+    "Acute myocardial infarction":[
+        "malignant hypertension (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → myocardial infarction (node)", 
+        "diabetes mellitus (disease) (node) → indication (edge) → Glimepiride (node) → contraindication (edge) → myocardial infarction (node)",
+        "obesity disorder (node) → contraindication (edge) → Norethisterone (node) → contraindication (edge) → myocardial infarction (node)",
+        "aortic valve stenosis (node) → contraindication (edge) → Lisinopril (node) → indication (edge) → myocardial infarction (node)",
+        "Congestive heart failure (node) → drug_effect (edge) → Potassium chloride (node) → contraindication (edge) → myocardial infarction (node)"
+    ],
+    "Chronic kidney disease":[
+        "Renal insufficiency (node) → phenotype_phenotype (edge) → Chronic kidney disease (node)",
+        "Stage 1 chronic kidney disease (node) → phenotype_phenotype (edge) → Chronic kidney disease (node)",
+        "malignant hypertension (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → focal segmental glomerulosclerosis (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)",
+        "Proteinuria (node) → disease_phenotype_positive (edge) → Dent disease (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)",
+        "acute kidney tubular necrosis (node) → disease_phenotype_positive (edge) → Abnormal renal tubule morphology (node) → disease_phenotype_positive (edge) → renal hypoplasia (disease) (node) → disease_phenotype_positive (edge) → Chronic kidney disease (node)"
+    ],
+    "Chronic obstructive pulmonary disease":[
+        "bronchitis (node) → disease_disease (edge) → chronic obstructive pulmonary disease (node)",
+        "Abnormality of the respiratory system (node) → disease_phenotype_positive (edge) → situs inversus (node) → disease_protein (edge) → MMP9 (node) → disease_protein (edge) → chronic obstructive pulmonary disease (node)",
+        "pulmonary hypertension (node) → contraindication (edge) → Trolnitrate (node) → contraindication (edge) → chronic obstructive pulmonary disease (node)",
+        "Bronchiectasis (node) → disease_phenotype_positive (edge) → diffuse panbronchiolitis (node) → disease_disease (edge) → chronic obstructive pulmonary disease (node)",
+        "Abnormal respiratory system morphology (node) → phenotype_phenotype (edge) → Abnormal lung morphology (node) → drug_effect (edge) → Salbutamol (node) → off-label use (edge) → chronic obstructive pulmonary disease (node)"
+    ],
+    "Conduction disordeprs":[
+        "atrioventricular block (node) → contraindication (edge) → Ritonavir (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)",
+        "myocarditis (node) → disease_disease (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)",
+        "Congestive heart failure (node) → disease_phenotype_positive (edge) → progressive familial heart block (node) → disease_disease (edge) → conduction system disorder (node)",
+        "sarcoidosis (node) → contraindication (edge) → Trolnitrate (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)",
+        "Paroxysmal supraventricular tachycardia (node) → phenotype_phenotype (edge) → Supraventricular tachycardia (node) → drug_effect (edge) → Daunorubicin (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)"
+    ],
+    "Coronary atherosclerosis and related":[
+        "malignant hypertension (node) → disease_protein (edge) → AGT (node) → protein_protein (edge) → ACE (node) → disease_protein (edge) → coronary atherosclerosis (node)",
+        "cerebral atherosclerosis (node) → disease_disease (edge) → atherosclerosis (node) → disease_disease (edge) → coronary atherosclerosis (node)",
+        "diabetes mellitus (disease) (node) → contraindication (edge) → Phenylephrine (node) → contraindication (edge) → coronary atherosclerosis (node)",
+        "pulmonary hypertension, primary (node) → disease_phenotype_positive (edge) → Dyspnea (node) → phenotype_protein (edge) → NPPB (node) → disease_protein (edge) → coronary atherosclerosis (node)",
+        "obesity disorder (node) → contraindication (edge) → Naproxen (node) → contraindication (edge) → coronary atherosclerosis (node)"
+    ],
+    "Diabetes mellitus without complication":[
+        "Stage 1 chronic kidney disease (node) → phenotype_phenotype (edge) → Chronic kidney disease (node) → disease_phenotype_positive (edge) → Alstrom syndrome (node) → disease_disease (edge) → diabetes mellitus (disease) (node)",
+        "background diabetic retinopathy (node) → disease_disease (edge) → diabetic retinopathy (node) → off-label use (edge) → Lisinopril (node) → contraindication (edge) → diabetes mellitus (disease) (node)",
+        "Proteinuria (node) → drug_effect (edge) → Fosinopril (node) → contraindication (edge) → diabetes mellitus (disease) (node)",
+        "obesity disorder (node) → contraindication (edge) → Estradiol valerate (node) → contraindication (edge) → diabetes mellitus (disease) (node)",
+        "idiopathic peripheral autonomic neuropathy (node) → disease_disease (edge) → autonomic nervous system disease (node) → contraindication (edge) → Phenyltoloxamine (node) → contraindication (edge) → diabetes mellitus (disease) (node)"
+    ],
+    "essential hypertension":[
+        "malignant hypertension (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)",
+        "congestive heart failure (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)",
+        "cerebral atherosclerosis (node) → disease_disease (edge) → atherosclerosis (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)",
+        "obesity disorder (node) → disease_protein (edge) → EP300 (node) → protein_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)",
+        "Stage 1 chronic kidney disease (node) → phenotype_phenotype (edge) → Chronic kidney disease (node) → disease_phenotype_positive (edge) → preeclampsia (node) → disease_phenotype_positive (edge) → Elevated diastolic blood pressure (node) → disease_phenotype_positive (edge) → essential hypertension, genetic (node)"
+    ],
+    "Gastrointestinal hemorrhage":[
+        "Warfarin (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)",
+        "esophageal varices with bleeding (node) → off-label use (edge) → Octreotide (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)",
+        "Portal vein thrombosis (node) → disease_phenotype_positive (edge) → acquired polycythemia vera (node) → disease_phenotype_positive (edge) → Gastrointestinal hemorrhage (node)",
+        "alcoholic hepatitis (node) → disease_protein (edge) → CCL5 (node) → protein_protein (edge) → APC (node) → phenotype_protein (edge) → Gastrointestinal hemorrhage (node)",
+        "Alcoholism (node) → disease_phenotype_positive (edge) → substance abuse/dependence (node) → contraindication (edge) → Fosphenytoin (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)"
+    ],
+    "Shock":[
+        "acute kidney tubular necrosis (node) → disease_protein (edge) → SOD2 (node) → phenotype_protein (edge) → Cardiogenic shock (node) → phenotype_phenotype (edge) → Shock (node)",
+        "orthostatic hypotension (node) → contraindication (edge) → Bortezomib (node) → drug_effect (edge) → Cardiogenic shock (node) → phenotype_phenotype (edge) → Shock (node)",
+        "Tachycardia (node) → disease_phenotype_positive (edge) → toxic shock syndrome (node) → disease_phenotype_positive (edge) → Shock (node)",
+        "Coma (node) → disease_phenotype_positive (edge) → ethylene glycol poisoning (node) → disease_phenotype_positive (edge) → Shock (node)",
+        "gas gangrene (node) → disease_disease (edge) → commensal bacterial infectious disease (node) → disease_disease (edge) → toxic shock syndrome (node) → disease_phenotype_positive (edge) → Shock (node)"
+    ],
+    "Other lower respiratory disease":[
+        "esophageal varices with bleeding (node) → off-label use (edge) → Octreotide (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)",
+        "Warfarin (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)",
+        "alcoholic liver cirrhosis (node) → disease_protein (edge) → CAT (node) → disease_protein (edge) → Behcet disease (node) → disease_phenotype_positive (edge) → Gastrointestinal hemorrhage (node)",
+        "Portal vein thrombosis (node) → disease_phenotype_positive (edge) → acquired polycythemia vera (node) → disease_phenotype_positive (edge) → Gastrointestinal hemorrhage (node)",
+        "alcoholic hepatitis (node) → disease_protein (edge) → CCL5 (node) → protein_protein (edge) → APC (node) → phenotype_protein (edge) → Gastrointestinal hemorrhage (node)"
+    ],
+    "Other upper respiratory disease":[
+        "acute laryngopharyngitis (node) → disease_disease (edge) → upper respiratory tract disease (node)",
+        "acute pharyngitis (node) → disease_disease (edge) → pharyngitis (node) → disease_disease (edge) → upper respiratory tract disease (node)",
+        "Chronic rhinitis (node) → phenotype_phenotype (edge) → Rhinitis (node) → drug_effect (edge) → Budesonide (node) → contraindication (edge) → upper respiratory tract disease (node)",
+        "Chronic sinusitis (node) → drug_effect (edge) → Naproxen (node) → drug_drug (edge) → Flunisolide (node) → contraindication (edge) → upper respiratory tract disease (node)",
+        "allergic rhinitis (node) → indication (edge) → Mometasone furoate (node) → contraindication (edge) → upper respiratory tract disease (node)"
+    ],
+    "Pneumonia":[
+        "bronchopneumonia (node) → disease_disease (edge) → pneumonia (node) → indication (edge) → Amphotericin B (node) → drug_effect (edge) → Pneumonia (node)",
+        "Bronchitis (node) → phenotype_phenotype (edge) → Respiratory tract infection (node) → phenotype_phenotype (edge) → Pneumonia (node)",
+        "Bronchitis (node) → phenotype_phenotype (edge) → Respiratory tract infection (node) → phenotype_phenotype (edge) → Pneumonia (node)",
+        "pulmonary alveolar proteinosis (node) → disease_disease (edge) → autoimmune pulmonary alveolar proteinosis (node) → disease_phenotype_positive (edge) → Pneumonia (node)",
+        "postinflammatory pulmonary fibrosis (node) → contraindication (edge) → Busulfan (node) → drug_effect (edge) → Pneumonia (node)"
+
+    ]
+}

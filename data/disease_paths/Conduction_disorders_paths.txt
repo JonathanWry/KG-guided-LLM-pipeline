@@ -1,0 +1,37 @@
+Disease: Conduction disorders
+
+Entity: Atrioventricular block, complete
+Reason: Atrioventricular block is a classic example of a conduction disorder and directly falls under this category.
+Path (similar (score=0.914)): atrioventricular block (node) → contraindication (edge) → Ritonavir (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+Path (similar (score=0.911)): atrioventricular block (disease) (node) → contraindication (edge) → Doxorubicin (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+
+Entity: Tachycardia, unspecified
+Reason: Tachyarrhythmias often involve abnormalities of cardiac conduction and can be a manifestation of conduction system disease.
+Path (similar (score=0.976)): Tachycardia (node) → drug_effect (edge) → Itraconazole (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+
+Entity: Paroxysmal supraventricular tachycardia
+Reason: This condition is a type of conduction abnormality caused by re-entry circuits in the atria or AV node.
+Path (exact): Paroxysmal supraventricular tachycardia (node) → phenotype_phenotype (edge) → Supraventricular tachycardia (node) → drug_effect (edge) → Daunorubicin (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+
+Entity: Congestive heart failure, unspecified
+Reason: Conduction disorders can lead to or exacerbate heart failure due to impaired coordination of cardiac contractions.
+Path (similar (score=0.984)): Congestive heart failure (node) → disease_phenotype_positive (edge) → progressive familial heart block (node) → disease_disease (edge) → conduction system disorder (node)
+Path (similar (score=0.983)): congestive heart failure (node) → contraindication (edge) → Itraconazole (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+
+Entity: Myocarditis, unspecified
+Reason: Myocarditis can affect the heart's conduction system and lead to arrhythmias or blocks.
+Path (similar (score=0.972)): Myocarditis (node) → drug_effect (edge) → Epirubicin (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+Path (similar (score=0.972)): myocarditis (node) → disease_disease (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+
+Entity: diabetes mellitus (disease)
+Reason: Diabetes is a known risk factor for conduction system disease due to microvascular complications affecting the cardiac conduction pathways.
+Path (exact): diabetes mellitus (disease) (node) → contraindication (edge) → Sodium phosphate, monobasic (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+
+Entity: Sarcoidosis
+Reason: Sarcoidosis can infiltrate the cardiac conduction system and is a known cause of heart block.
+Path (exact (case-insensitive)): sarcoidosis (node) → contraindication (edge) → Trolnitrate (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)
+
+Entity: Primary pulmonary hypertension
+Reason: This condition can cause right ventricular hypertrophy, which may affect conduction pathways and lead to arrhythmias.
+Path (similar (score=0.990)): pulmonary hypertension, primary (node) → disease_phenotype_positive (edge) → Dyspnea (node) → disease_phenotype_positive (edge) → progressive familial heart block (node) → disease_disease (edge) → conduction system disorder (node)
+Path (similar (score=0.909)): pulmonary hypertension (node) → contraindication (edge) → Trolnitrate (node) → contraindication (edge) → myocardial disorder (node) → disease_disease (edge) → conduction system disorder (node)

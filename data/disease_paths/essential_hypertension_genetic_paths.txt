@@ -1,0 +1,36 @@
+Disease: essential hypertension, genetic
+
+Entity: Malignant essential hypertension
+Reason: This is a severe form of essential hypertension and represents the same disease spectrum, making it a directly related and critically important ICD feature.
+Path (similar (score=0.920)): malignant hypertension (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)
+
+Entity: hypertensive heart disease
+Reason: This diagnosis illustrates end-organ damage due to chronic hypertension affecting both the heart and kidneys.
+Path (exact): hypertensive heart disease (node) → disease_disease (edge) → heart disease (node) → disease_disease (edge) → heart failure (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)
+
+Entity: Congestive heart failure, unspecified
+Reason: Essential hypertension is a major risk factor for heart failure due to chronic pressure overload on the heart.
+Path (similar (score=0.984)): Congestive heart failure (node) → drug_effect (edge) → Doxorubicin (node) → drug_protein (edge) → NOS2 (node) → disease_protein (edge) → essential hypertension, genetic (node)
+Path (similar (score=0.983)): congestive heart failure (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)
+
+Entity: Chronic kidney disease, Stage I
+Reason: Chronic hypertension contributes to kidney damage, particularly in the early stages of chronic kidney disease.
+Path (similar (score=0.962)): Stage 1 chronic kidney disease (node) → phenotype_phenotype (edge) → Chronic kidney disease (node) → disease_phenotype_positive (edge) → preeclampsia (node) → disease_phenotype_positive (edge) → Elevated diastolic blood pressure (node) → disease_phenotype_positive (edge) → essential hypertension, genetic (node)
+
+Entity: Cerebral atherosclerosis
+Reason: Hypertension accelerates atherosclerosis, particularly in cerebral vessels, increasing the risk of stroke and vascular cognitive impairment.
+Path (exact (case-insensitive)): cerebral atherosclerosis (node) → disease_disease (edge) → atherosclerosis (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)
+
+Entity: Intracerebral hemorrhage
+Reason: One of the serious complications of uncontrolled hypertension is hemorrhagic stroke due to vessel rupture in the brain.
+Path (exact (case-insensitive)): intracerebral hemorrhage (node) → exposure_disease (edge) → Air Pollutants (node) → exposure_protein (edge) → NOS2 (node) → disease_protein (edge) → essential hypertension, genetic (node)
+
+Entity: Renal failure, unspecified
+Reason: Long-standing essential hypertension can lead to progressive kidney damage culminating in renal failure.
+Path (similar (score=0.940)): kidney failure (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)
+Path (similar (score=0.895)): Renal insufficiency (node) → drug_effect (edge) → Doxorubicin (node) → drug_protein (edge) → NOS2 (node) → disease_protein (edge) → essential hypertension, genetic (node)
+
+Entity: Obesity, unspecified
+Reason: Obesity is a significant risk factor for developing essential hypertension and contributes to its persistence and severity.
+Path (similar (score=0.966)): obesity disorder (node) → disease_protein (edge) → EP300 (node) → protein_protein (edge) → AGT (node) → disease_protein (edge) → essential hypertension, genetic (node)
+Path (similar (score=0.857)): morbid obesity (node) → contraindication (edge) → Guaifenesin (node) → contraindication (edge) → hypertension (node) → disease_disease (edge) → essential hypertension, genetic (node)

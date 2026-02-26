@@ -1,0 +1,36 @@
+Disease: Acute myocardial infarction
+
+Entity: Congestive heart failure, unspecified
+Reason: Congestive heart failure is a common complication following acute myocardial infarction due to the damage to cardiac muscle.
+Path (similar (score=0.984)): Congestive heart failure (node) → drug_effect (edge) → Potassium chloride (node) → contraindication (edge) → myocardial infarction (node)
+Path (similar (score=0.983)): congestive heart failure (node) → contraindication (edge) → Glimepiride (node) → contraindication (edge) → myocardial infarction (node)
+
+Entity: Malignant essential hypertension
+Reason: Severe hypertension is a major risk factor for acute myocardial infarction due to its role in accelerating atherosclerosis and increasing myocardial oxygen demand.
+Path (similar (score=0.920)): malignant hypertension (node) → disease_protein (edge) → AGT (node) → disease_protein (edge) → myocardial infarction (node)
+
+Entity: Aortic valve stenosis
+Reason: Aortic stenosis increases left ventricular workload and myocardial oxygen demand, predisposing to ischemia and infarction.
+Path (exact (case-insensitive)): aortic valve stenosis (node) → contraindication (edge) → Lisinopril (node) → indication (edge) → myocardial infarction (node)
+
+Entity: diabetes mellitus (disease)
+Reason: Diabetes mellitus is a strong risk factor for coronary artery disease, the underlying cause of acute myocardial infarction.
+Path (exact): diabetes mellitus (disease) (node) → indication (edge) → Glimepiride (node) → contraindication (edge) → myocardial infarction (node)
+
+Entity: Cerebral atherosclerosis
+Reason: Atherosclerosis is a systemic condition affecting multiple vascular beds, including coronary arteries, leading to myocardial infarction.
+Path (exact (case-insensitive)): cerebral atherosclerosis (node) → disease_disease (edge) → atherosclerosis (node) → contraindication (edge) → Potassium citrate (node) → contraindication (edge) → myocardial infarction (node)
+
+Entity: Tachycardia, unspecified
+Reason: Tachycardia may be both a symptom and a contributing factor in myocardial infarction, increasing myocardial oxygen demand.
+Path (similar (score=0.976)): Tachycardia (node) → drug_effect (edge) → Glimepiride (node) → contraindication (edge) → myocardial infarction (node)
+
+Entity: Atrioventricular block, complete
+Reason: Complete AV block can occur as a complication of acute myocardial infarction, especially inferior wall MI.
+Path (similar (score=0.914)): atrioventricular block (node) → contraindication (edge) → Potassium citrate (node) → contraindication (edge) → myocardial infarction (node)
+Path (similar (score=0.911)): atrioventricular block (disease) (node) → contraindication (edge) → Propafenone (node) → contraindication (edge) → myocardial infarction (node)
+
+Entity: Obesity, unspecified
+Reason: Obesity is a well-known modifiable risk factor for myocardial infarction due to its association with hypertension, diabetes, and dyslipidemia.
+Path (similar (score=0.966)): obesity disorder (node) → contraindication (edge) → Norethisterone (node) → contraindication (edge) → myocardial infarction (node)
+Path (similar (score=0.857)): morbid obesity (node) → contraindication (edge) → Phenylephrine (node) → contraindication (edge) → myocardial infarction (node)

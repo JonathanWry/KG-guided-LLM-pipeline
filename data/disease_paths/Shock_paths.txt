@@ -1,0 +1,34 @@
+Disease: Shock
+
+Entity: Acute kidney failure with lesion of tubular necrosis
+Reason: Shock can cause hypoperfusion of the kidneys, leading to acute tubular necrosis, a classic complication of prolonged hypotension.
+Path (similar (score=0.873)): acute kidney tubular necrosis (node) → disease_protein (edge) → SOD2 (node) → phenotype_protein (edge) → Cardiogenic shock (node) → phenotype_phenotype (edge) → Shock (node)
+
+Entity: Orthostatic hypotension
+Reason: Hypotension is a defining hemodynamic feature of shock and orthostatic hypotension can mimic or exacerbate shock symptoms in vulnerable patients.
+Path (exact (case-insensitive)): orthostatic hypotension (node) → contraindication (edge) → Bortezomib (node) → drug_effect (edge) → Cardiogenic shock (node) → phenotype_phenotype (edge) → Shock (node)
+
+Entity: Coma
+Reason: Severe shock may lead to cerebral hypoperfusion and loss of consciousness, manifesting as coma in advanced cases.
+Path (exact): Coma (node) → disease_phenotype_positive (edge) → ethylene glycol poisoning (node) → disease_phenotype_positive (edge) → Shock (node)
+
+Entity: Congestive heart failure, unspecified
+Reason: Cardiogenic shock is a subtype of shock that directly results from severe heart failure, making this a critical related condition.
+Path (similar (score=0.984)): Congestive heart failure (node) → disease_phenotype_positive (edge) → ethylene glycol poisoning (node) → disease_phenotype_positive (edge) → Shock (node)
+Path (similar (score=0.983)): congestive heart failure (node) → contraindication (edge) → Estradiol (node) → contraindication (edge) → toxic shock syndrome (node) → disease_phenotype_positive (edge) → Shock (node)
+
+Entity: Tachycardia, unspecified
+Reason: Tachycardia is a common physiological response to shock, reflecting the body’s attempt to maintain cardiac output during hypotension.
+Path (similar (score=0.976)): Tachycardia (node) → disease_phenotype_positive (edge) → toxic shock syndrome (node) → disease_phenotype_positive (edge) → Shock (node)
+
+Entity: Acute cor pulmonale
+Reason: This condition can precipitate obstructive or cardiogenic shock due to right ventricular failure and impaired pulmonary circulation.
+Path (exact (case-insensitive)): acute cor pulmonale (node) → disease_disease (edge) → acute disease (node) → disease_disease (edge) → acute liver failure (node) → disease_phenotype_positive (edge) → Shock (node)
+
+Entity: Hemorrhagic disease of newborn
+Reason: Severe bleeding in neonates can lead to hypovolemic shock, making this a relevant and critically associated condition.
+Path (exact (case-insensitive)): hemorrhagic disease of newborn (node) → disease_disease (edge) → blood coagulation disease (node) → contraindication (edge) → Ceftazidime (node) → indication (edge) → meningococcal infection (node) → disease_phenotype_positive (edge) → Shock (node)
+
+Entity: Gas gangrene
+Reason: Gas gangrene can progress to septic shock if the infection spreads systemically, causing profound hypotension and organ dysfunction.
+Path (exact (case-insensitive)): gas gangrene (node) → disease_disease (edge) → commensal bacterial infectious disease (node) → disease_disease (edge) → toxic shock syndrome (node) → disease_phenotype_positive (edge) → Shock (node)

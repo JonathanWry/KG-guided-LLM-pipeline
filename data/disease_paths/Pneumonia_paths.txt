@@ -1,0 +1,21 @@
+Disease: Pneumonia
+
+Entity: Bronchopneumonia
+Reason: Bronchopneumonia is a direct subtype of pneumonia, involving infection and inflammation of the alveoli in the lungs. It is clinically and pathologically equivalent to pneumonia, making it the most closely related feature.
+Path (exact (case-insensitive)): bronchopneumonia (node) → disease_disease (edge) → pneumonia (node) → indication (edge) → Amphotericin B (node) → drug_effect (edge) → Pneumonia (node)
+
+Entity: Bronchitis
+Reason: Bronchitis and pneumonia are both lower respiratory tract infections with overlapping symptoms such as cough, sputum production, and dyspnea. Bronchitis often precedes pneumonia or coexists with it, especially in high-risk patients.
+Path (exact): Bronchitis (node) → phenotype_phenotype (edge) → Respiratory tract infection (node) → phenotype_phenotype (edge) → Pneumonia (node)
+
+Entity: Bronchitis
+Reason: This condition can lead to chemical pneumonitis, a non-infectious form of pneumonia caused by inhalation of toxic substances. It shares pathophysiological features with infectious pneumonia, especially regarding lung inflammation.
+Path (exact): Bronchitis (node) → phenotype_phenotype (edge) → Respiratory tract infection (node) → phenotype_phenotype (edge) → Pneumonia (node)
+
+Entity: Pulmonary alveolar proteinosis
+Reason: Pulmonary alveolar proteinosis impairs alveolar gas exchange and predisposes to secondary infections like pneumonia. The accumulation of surfactant-like material can create an environment conducive to infection.
+Path (exact (case-insensitive)): pulmonary alveolar proteinosis (node) → disease_disease (edge) → autoimmune pulmonary alveolar proteinosis (node) → disease_phenotype_positive (edge) → Pneumonia (node)
+
+Entity: Postinflammatory pulmonary fibrosis
+Reason: Postinflammatory pulmonary fibrosis is a potential chronic complication following pneumonia, particularly in severe or recurrent cases. It reflects long-term damage due to inflammation of the lung parenchyma.
+Path (exact (case-insensitive)): postinflammatory pulmonary fibrosis (node) → contraindication (edge) → Busulfan (node) → drug_effect (edge) → Pneumonia (node)

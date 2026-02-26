@@ -1,0 +1,396 @@
+"essential hypertension, genetic":{
+    "selected_entity_0": {
+        "name": "Malignant essential hypertension",
+        "reason": "This is a severe form of essential hypertension and represents the same disease spectrum, making it a directly related and critically important ICD feature."
+    },
+    "selected_entity_1": {
+        "name": "hypertensive heart disease",
+        "reason": "This diagnosis illustrates end-organ damage due to chronic hypertension affecting both the heart and kidneys."
+    },
+    "selected_entity_2": {
+        "name": "Congestive heart failure, unspecified",
+        "reason": "Essential hypertension is a major risk factor for heart failure due to chronic pressure overload on the heart."
+    },
+    "selected_entity_3": {
+        "name": "Chronic kidney disease, Stage I",
+        "reason": "Chronic hypertension contributes to kidney damage, particularly in the early stages of chronic kidney disease."
+    },
+    "selected_entity_4": {
+        "name": "Cerebral atherosclerosis",
+        "reason": "Hypertension accelerates atherosclerosis, particularly in cerebral vessels, increasing the risk of stroke and vascular cognitive impairment."
+    },
+    "selected_entity_5": {
+        "name": "Intracerebral hemorrhage",
+        "reason": "One of the serious complications of uncontrolled hypertension is hemorrhagic stroke due to vessel rupture in the brain."
+    },
+    "selected_entity_6": {
+        "name": "Renal failure, unspecified",
+        "reason": "Long-standing essential hypertension can lead to progressive kidney damage culminating in renal failure."
+    },
+    "selected_entity_7": {
+        "name": "Obesity, unspecified",
+        "reason": "Obesity is a significant risk factor for developing essential hypertension and contributes to its persistence and severity."
+    }
+}
+"Acute myocardial infarction":{
+    "selected_entity_0": {
+        "name": "Congestive heart failure, unspecified",
+        "reason": "Congestive heart failure is a common complication following acute myocardial infarction due to the damage to cardiac muscle."
+    },
+    "selected_entity_1": {
+        "name": "Malignant essential hypertension",
+        "reason": "Severe hypertension is a major risk factor for acute myocardial infarction due to its role in accelerating atherosclerosis and increasing myocardial oxygen demand."
+    },
+    "selected_entity_2": {
+        "name": "Aortic valve stenosis",
+        "reason": "Aortic stenosis increases left ventricular workload and myocardial oxygen demand, predisposing to ischemia and infarction."
+    },
+    "selected_entity_3": {
+        "name": "diabetes mellitus (disease)",
+        "reason": "Diabetes mellitus is a strong risk factor for coronary artery disease, the underlying cause of acute myocardial infarction."
+    },
+    "selected_entity_4": {
+        "name": "Cerebral atherosclerosis",
+        "reason": "Atherosclerosis is a systemic condition affecting multiple vascular beds, including coronary arteries, leading to myocardial infarction."
+    },
+    "selected_entity_5": {
+        "name": "Tachycardia, unspecified",
+        "reason": "Tachycardia may be both a symptom and a contributing factor in myocardial infarction, increasing myocardial oxygen demand."
+    },
+    "selected_entity_6": {
+        "name": "Atrioventricular block, complete",
+        "reason": "Complete AV block can occur as a complication of acute myocardial infarction, especially inferior wall MI."
+    },
+    "selected_entity_7": {
+        "name": "Obesity, unspecified",
+        "reason": "Obesity is a well-known modifiable risk factor for myocardial infarction due to its association with hypertension, diabetes, and dyslipidemia."
+    }
+}
+"Chronic kidney disease":{
+  "selected_entity_0": {
+    "name": "Chronic kidney disease, Stage I",
+    "reason": "This directly represents an early stage of the disease being verified and is therefore inherently correlated and critically related."
+  },
+  "selected_entity_1": {
+    "name": "Acute kidney failure with lesion of tubular necrosis",
+    "reason": "Acute kidney injury is a known precipitating or complicating factor in chronic kidney disease, particularly with tubular damage."
+  },
+  "selected_entity_2": {
+    "name": "Renal failure, unspecified",
+    "reason": "This entity may represent end-stage renal disease, which is a progression from chronic kidney disease."
+  },
+  "selected_entity_3": {
+    "name": "hypertensive heart disease",
+    "reason": "This diagnosis explicitly includes chronic kidney disease and reflects systemic complications from hypertension."
+  },
+  "selected_entity_4": {
+    "name": "Malignant essential hypertension",
+    "reason": "Hypertension is a leading cause and contributor to the progression of chronic kidney disease."
+  },
+  "selected_entity_5": {
+    "name": "diabetes mellitus (disease)",
+    "reason": "Diabetes is a primary risk factor for the development and progression of chronic kidney disease due to diabetic nephropathy."
+  },
+  "selected_entity_6": {
+    "name": "Proteinuria",
+    "reason": "Proteinuria is a hallmark sign of kidney damage and is often used to assess the severity and progression of chronic kidney disease."
+  },
+  "selected_entity_7": {
+    "name": "Renal osteodystrophy",
+    "reason": "This is a bone disorder directly caused by the mineral imbalances that occur in chronic kidney disease."
+  }
+}
+"Chronic obstructive pulmonary disease":{
+  "selected_entity_0": {
+    "name": "Bronchitis, not specified as acute or chronic",
+    "reason": "Chronic bronchitis is one of the two main conditions that define COPD and is directly correlated with the disease."
+  },
+  "selected_entity_1": {
+    "name": "Bronchiectasis",
+    "reason": "Bronchiectasis may coexist with or mimic COPD, and both share chronic airway inflammation and obstruction."
+  },
+  "selected_entity_2": {
+    "name": "Acute cor pulmonale",
+    "reason": "This is a serious complication of advanced COPD due to pulmonary hypertension and right heart strain."
+  },
+  "selected_entity_3": {
+    "name": "Acute bronchitis",
+    "reason": "COPD patients are highly susceptible to acute bronchitis exacerbations, often leading to hospitalization."
+  },
+  "selected_entity_4": {
+    "name": "Postinflammatory pulmonary fibrosis",
+    "reason": "Chronic lung injury in COPD can lead to fibrosis, and the two conditions may overlap in clinical presentation."
+  },
+  "selected_entity_5": {
+    "name": "Pulmonary alveolar proteinosis",
+    "reason": "Though rare, it affects gas exchange and may resemble or complicate obstructive lung disease."
+  },
+  "selected_entity_6": {
+    "name": "Primary pulmonary hypertension",
+    "reason": "Pulmonary hypertension is a known complication of chronic hypoxia in COPD."
+  },
+  "selected_entity_7": {
+    "name": "Respiratory abnormality, unspecified",
+    "reason": "COPD is a chronic respiratory condition and would be captured under general respiratory abnormalities if not otherwise specified."
+  }
+}
+"Conduction disorders":{
+  "selected_entity_0": {
+    "name": "Atrioventricular block, complete",
+    "reason": "Atrioventricular block is a classic example of a conduction disorder and directly falls under this category."
+  },
+  "selected_entity_1": {
+    "name": "Tachycardia, unspecified",
+    "reason": "Tachyarrhythmias often involve abnormalities of cardiac conduction and can be a manifestation of conduction system disease."
+  },
+  "selected_entity_2": {
+    "name": "Paroxysmal supraventricular tachycardia",
+    "reason": "This condition is a type of conduction abnormality caused by re-entry circuits in the atria or AV node."
+  },
+  "selected_entity_3": {
+    "name": "Congestive heart failure, unspecified",
+    "reason": "Conduction disorders can lead to or exacerbate heart failure due to impaired coordination of cardiac contractions."
+  },
+  "selected_entity_4": {
+    "name": "Myocarditis, unspecified",
+    "reason": "Myocarditis can affect the heart's conduction system and lead to arrhythmias or blocks."
+  },
+  "selected_entity_5": {
+    "name": "diabetes mellitus (disease)",
+    "reason": "Diabetes is a known risk factor for conduction system disease due to microvascular complications affecting the cardiac conduction pathways."
+  },
+  "selected_entity_6": {
+    "name": "Sarcoidosis",
+    "reason": "Sarcoidosis can infiltrate the cardiac conduction system and is a known cause of heart block."
+  },
+  "selected_entity_7": {
+    "name": "Primary pulmonary hypertension",
+    "reason": "This condition can cause right ventricular hypertrophy, which may affect conduction pathways and lead to arrhythmias."
+  }
+},
+"Coronary atherosclerosis and related":{
+  "selected_entity_0": {
+    "name": "Congestive heart failure, unspecified",
+    "reason": "Coronary atherosclerosis can reduce myocardial oxygen supply, leading to ischemic cardiomyopathy and eventually congestive heart failure."
+  },
+  "selected_entity_1": {
+    "name": "Malignant essential hypertension",
+    "reason": "Uncontrolled hypertension accelerates the development of coronary atherosclerosis by damaging arterial walls and promoting plaque formation."
+  },
+  "selected_entity_2": {
+    "name": "diabetes mellitus (disease)",
+    "reason": "Diabetes is a major risk factor for coronary atherosclerosis due to its contribution to endothelial dysfunction and systemic inflammation."
+  },
+  "selected_entity_3": {
+    "name": "Obesity, unspecified",
+    "reason": "Obesity is a strong modifiable risk factor that increases the likelihood of atherosclerosis through dyslipidemia, inflammation, and insulin resistance."
+  },
+  "selected_entity_4": {
+    "name": "Aortic valve stenosis",
+    "reason": "Aortic stenosis and coronary atherosclerosis commonly coexist in the elderly and can both contribute to impaired myocardial perfusion."
+  },
+  "selected_entity_5": {
+    "name": "Cerebral atherosclerosis",
+    "reason": "Cerebral and coronary atherosclerosis often occur together as part of systemic atherosclerotic vascular disease."
+  },
+  "selected_entity_6": {
+    "name": "hypertensive heart disease",
+    "reason": "This reflects end-organ damage from chronic hypertension, a key contributor to both coronary atherosclerosis and related vascular complications."
+  },
+  "selected_entity_7": {
+    "name": "Primary pulmonary hypertension",
+    "reason": "While distinct, pulmonary hypertension can co-occur in patients with left-sided heart disease due to coronary atherosclerosis and resultant heart failure."
+  }
+}
+"Diabetes mellitus without complication":{
+    "selected_entity_0": {
+        "name": "Chronic kidney disease, Stage I",
+        "reason": "Chronic kidney disease is a major long-term complication of diabetes mellitus due to diabetic nephropathy."
+    },
+    "selected_entity_1": {
+        "name": "Background diabetic retinopathy",
+        "reason": "This is a classic microvascular complication of diabetes mellitus affecting the retina and is directly linked to chronic hyperglycemia."
+    },
+    "selected_entity_2": {
+        "name": "Proteinuria",
+        "reason": "Proteinuria is an early marker of diabetic nephropathy, reflecting kidney damage in diabetic patients."
+    },
+    "selected_entity_3": {
+        "name": "Renal failure, unspecified",
+        "reason": "End-stage renal disease often develops as a consequence of long-standing uncontrolled diabetes mellitus."
+    },
+    "selected_entity_4": {
+        "name": "Obesity, unspecified",
+        "reason": "Obesity is a major modifiable risk factor for type II diabetes mellitus, contributing to insulin resistance."
+    },
+    "selected_entity_5": {
+        "name": "Malignant essential hypertension",
+        "reason": "Hypertension frequently coexists with diabetes mellitus and worsens its vascular complications."
+    },
+    "selected_entity_6": {
+        "name": "Congestive heart failure, unspecified",
+        "reason": "Diabetes mellitus significantly increases the risk of developing heart failure due to associated coronary artery disease and metabolic changes."
+    },
+    "selected_entity_7": {
+        "name": "Idiopathic peripheral autonomic neuropathy, unspecified",
+        "reason": "Peripheral and autonomic neuropathy are well-established complications of chronic diabetes mellitus, leading to sensory and autonomic dysfunction."
+    }
+}
+"Gastrointestinal hemorrhage":{
+  "selected_entity_0": {
+    "name": "Esophageal varices with bleeding",
+    "reason": "This is a direct cause of gastrointestinal hemorrhage, commonly due to portal hypertension associated with liver disease."
+  },
+  "selected_entity_1": {
+    "name": "Alcohol abuse, unspecified",
+    "reason": "Chronic alcohol abuse can lead to liver cirrhosis, which predisposes to gastrointestinal hemorrhage through varices or gastritis."
+  },
+  "selected_entity_2": {
+    "name": "Alcoholic fatty liver",
+    "reason": "A manifestation of chronic alcohol use, this condition can progress to cirrhosis and portal hypertension, increasing the risk of gastrointestinal bleeding."
+  },
+  "selected_entity_3": {
+    "name": "Portal vein thrombosis",
+    "reason": "This condition leads to increased portal pressure and development of varices, a common cause of upper GI bleeding."
+  },
+  "selected_entity_4": {
+    "name": "Warfarin",
+    "reason": "As an anticoagulant, warfarin significantly increases the risk of gastrointestinal bleeding, especially in patients with peptic ulcers or mucosal lesions."
+  },
+  "selected_entity_5": {
+    "name": "Sideroblastic anemia",
+    "reason": "While not a cause, this anemia could be a consequence of chronic blood loss from gastrointestinal hemorrhage."
+  },
+  "selected_entity_6": {
+    "name": "Deficiency of vitamin K",
+    "reason": "Vitamin K deficiency impairs clotting and can contribute to bleeding, including gastrointestinal hemorrhage."
+  },
+  "selected_entity_7": {
+    "name": "esophageal varices",
+    "reason": "This procedure is used to treat a known source of gastrointestinal bleeding, indicating a history of GI hemorrhage."
+  }
+}
+"lower respiratory tract disease":{
+    "selected_entity_1": {
+        "name": "Acute bronchitis",
+        "reason": "Acute bronchitis is a direct inflammation of the lower respiratory tract, causing cough and sputum production — a primary component of lower respiratory diseases."
+    },
+    "selected_entity_2": {
+        "name": "Bronchitis, not specified as acute or chronic",
+        "reason": "This condition represents chronic or unspecified inflammation of the bronchial tubes, which is a defining pathology of other lower respiratory diseases."
+    },
+    "selected_entity_3": {
+        "name": "Bronchopneumonia, organism unspecified",
+        "reason": "Bronchopneumonia involves infection and inflammation within the lower respiratory airways and alveoli, aligning closely with the clinical presentation of lower respiratory diseases."
+    },
+    "selected_entity_4": {
+        "name": "Postinflammatory pulmonary fibrosis",
+        "reason": "Pulmonary fibrosis can develop as a chronic sequela of lower respiratory diseases, characterized by scarring and reduced lung function following inflammation."
+    },
+    "selected_entity_5": {
+        "name": "Asbestosis",
+        "reason": "Asbestosis is a chronic restrictive lower respiratory disease caused by inhalation of asbestos fibers, leading to pulmonary fibrosis and respiratory insufficiency."
+    },
+    "selected_entity_6": {
+        "name": "pulmonary non-tuberculous mycobacterial infection",
+        "reason": "These infections target the lower respiratory system, mimicking tuberculosis-like chronic pulmonary diseases, thus fitting within the spectrum of lower respiratory disorders."
+    },
+    "selected_entity_7": {
+        "name": "Bronchitis",
+        "reason": "This reflects occupational or environmental exposure-induced inflammation of the lower respiratory tract, leading to chronic or acute bronchopulmonary disease."
+    },
+    "selected_entity_8": {
+        "name": "Acute cor pulmonale",
+        "reason": "Acute cor pulmonale can result from severe lower respiratory disease (e.g., pulmonary embolism, pneumonia, or bronchospasm), representing a complication of such disorders."
+    }
+}
+"upper respiratory tract disease":{
+  "selected_entity_0": {
+    "name": "Acute pharyngitis",
+    "reason": "This is a direct and common condition affecting the upper respiratory tract, typically involving inflammation of the pharynx."
+  },
+  "selected_entity_1": {
+    "name": "Acute tonsillitis",
+    "reason": "Tonsillitis is a classic upper respiratory infection, often presenting alongside pharyngitis and sharing the same infectious etiology."
+  },
+  "selected_entity_2": {
+    "name": "Chronic sinusitis",
+    "reason": "Chronic inflammation of the maxillary sinuses is a hallmark of upper respiratory tract disease and often coexists with other sinus conditions."
+  },
+  "selected_entity_3": {
+    "name": "Acute maxillary sinusitis",
+    "reason": "An acute infection of the maxillary sinuses, directly part of the upper respiratory system, contributing to nasal congestion and facial pain."
+  },
+  "selected_entity_4": {
+    "name": "Acute laryngopharyngitis",
+    "reason": "A combined inflammation of the larynx and pharynx, both of which are components of the upper respiratory tract."
+  },
+  "selected_entity_5": {
+    "name": "Deviated nasal septum",
+    "reason": "A structural abnormality of the upper airway that contributes to chronic upper respiratory symptoms such as nasal obstruction and sinusitis."
+  },
+  "selected_entity_6": {
+    "name": "Allergic rhinitis due to pollen",
+    "reason": "Allergic rhinitis is a common upper respiratory condition involving the nasal mucosa, often exacerbating other upper airway diseases."
+  },
+  "selected_entity_7": {
+    "name": "Chronic rhinitis",
+    "reason": "Chronic rhinitis represents long-term inflammation of the nasal passages, a core component of upper respiratory disease."
+  }
+}
+"Shock":{
+  "selected_entity_0": {
+    "name": "Acute kidney failure with lesion of tubular necrosis",
+    "reason": "Shock can cause hypoperfusion of the kidneys, leading to acute tubular necrosis, a classic complication of prolonged hypotension."
+  },
+  "selected_entity_1": {
+    "name": "Orthostatic hypotension",
+    "reason": "Hypotension is a defining hemodynamic feature of shock and orthostatic hypotension can mimic or exacerbate shock symptoms in vulnerable patients."
+  },
+  "selected_entity_2": {
+    "name": "Coma",
+    "reason": "Severe shock may lead to cerebral hypoperfusion and loss of consciousness, manifesting as coma in advanced cases."
+  },
+  "selected_entity_3": {
+    "name": "Congestive heart failure, unspecified",
+    "reason": "Cardiogenic shock is a subtype of shock that directly results from severe heart failure, making this a critical related condition."
+  },
+  "selected_entity_4": {
+    "name": "Tachycardia, unspecified",
+    "reason": "Tachycardia is a common physiological response to shock, reflecting the body’s attempt to maintain cardiac output during hypotension."
+  },
+  "selected_entity_5": {
+    "name": "Acute cor pulmonale",
+    "reason": "This condition can precipitate obstructive or cardiogenic shock due to right ventricular failure and impaired pulmonary circulation."
+  },
+  "selected_entity_6": {
+    "name": "Hemorrhagic disease of newborn",
+    "reason": "Severe bleeding in neonates can lead to hypovolemic shock, making this a relevant and critically associated condition."
+  },
+  "selected_entity_7": {
+    "name": "Gas gangrene",
+    "reason": "Gas gangrene can progress to septic shock if the infection spreads systemically, causing profound hypotension and organ dysfunction."
+  }
+}
+"Pneumonia":{
+  "selected_entity_0": {
+      "name": "Bronchopneumonia",
+      "reason": "Bronchopneumonia is a direct subtype of pneumonia, involving infection and inflammation of the alveoli in the lungs. It is clinically and pathologically equivalent to pneumonia, making it the most closely related feature."
+  },
+  "selected_entity_1": {
+      "name": "Bronchitis",
+      "reason": "Bronchitis and pneumonia are both lower respiratory tract infections with overlapping symptoms such as cough, sputum production, and dyspnea. Bronchitis often precedes pneumonia or coexists with it, especially in high-risk patients."
+  },
+  "selected_entity_2": {
+      "name": "Bronchitis",
+      "reason": "This condition can lead to chemical pneumonitis, a non-infectious form of pneumonia caused by inhalation of toxic substances. It shares pathophysiological features with infectious pneumonia, especially regarding lung inflammation."
+  },
+  "selected_entity_3": {
+      "name": "Pulmonary alveolar proteinosis",
+      "reason": "Pulmonary alveolar proteinosis impairs alveolar gas exchange and predisposes to secondary infections like pneumonia. The accumulation of surfactant-like material can create an environment conducive to infection."
+  },
+  "selected_entity_4": {
+      "name": "Postinflammatory pulmonary fibrosis",
+      "reason": "Postinflammatory pulmonary fibrosis is a potential chronic complication following pneumonia, particularly in severe or recurrent cases. It reflects long-term damage due to inflammation of the lung parenchyma."
+  }
+}

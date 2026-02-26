@@ -1,0 +1,21 @@
+# Additional dependencies for this repository.
+# Build/install LLaMA-Factory first for finetuning,
+# then install this file for extra pipeline/evaluation packages.
+# `torch`, `transformers`, and `llamafactory` are expected from the LLaMA-Factory install.
+
+# Core data + metrics
+numpy==2.4.2
+pandas==2.3.3
+scikit-learn==1.8.0
+networkx==3.6.1
+
+# Utility + API + logging
+tqdm==4.67.3
+openai==2.21.0
+wandb==0.25.0
+
+# GPU KG stack (install with conda + matching CUDA)
+# Example: conda install -c rapidsai -c conda-forge cudf cugraph rmm
+cudf
+cugraph
+rmm

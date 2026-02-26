@@ -1,0 +1,33 @@
+Disease: upper respiratory tract disease
+
+Entity: Acute pharyngitis
+Reason: This is a direct and common condition affecting the upper respiratory tract, typically involving inflammation of the pharynx.
+Path (exact (case-insensitive)): acute pharyngitis (node) → disease_disease (edge) → pharyngitis (node) → disease_disease (edge) → upper respiratory tract disease (node)
+
+Entity: Acute tonsillitis
+Reason: Tonsillitis is a classic upper respiratory infection, often presenting alongside pharyngitis and sharing the same infectious etiology.
+Path (exact (case-insensitive)): acute tonsillitis (node) → disease_disease (edge) → acute disease (node) → exposure_disease (edge) → Dichlorvos (node) → exposure_disease (edge) → respiratory system disease (node) → disease_disease (edge) → upper respiratory tract disease (node)
+
+Entity: Chronic sinusitis
+Reason: Chronic inflammation of the maxillary sinuses is a hallmark of upper respiratory tract disease and often coexists with other sinus conditions.
+Path (exact): Chronic sinusitis (node) → drug_effect (edge) → Naproxen (node) → drug_drug (edge) → Flunisolide (node) → contraindication (edge) → upper respiratory tract disease (node)
+
+Entity: Acute maxillary sinusitis
+Reason: An acute infection of the maxillary sinuses, directly part of the upper respiratory system, contributing to nasal congestion and facial pain.
+Path (similar (score=0.873)): maxillary sinusitis (node) → indication (edge) → Ciprofloxacin (node) → drug_drug (edge) → Flunisolide (node) → contraindication (edge) → upper respiratory tract disease (node)
+
+Entity: Acute laryngopharyngitis
+Reason: A combined inflammation of the larynx and pharynx, both of which are components of the upper respiratory tract.
+Path (exact (case-insensitive)): acute laryngopharyngitis (node) → disease_disease (edge) → upper respiratory tract disease (node)
+
+Entity: Deviated nasal septum
+Reason: A structural abnormality of the upper airway that contributes to chronic upper respiratory symptoms such as nasal obstruction and sinusitis.
+Path (exact): Deviated nasal septum (node) → drug_effect (edge) → Citalopram (node) → drug_drug (edge) → Fluticasone propionate (node) → contraindication (edge) → upper respiratory tract disease (node)
+
+Entity: Allergic rhinitis due to pollen
+Reason: Allergic rhinitis is a common upper respiratory condition involving the nasal mucosa, often exacerbating other upper airway diseases.
+Path (similar (score=0.875)): allergic rhinitis (node) → indication (edge) → Mometasone furoate (node) → contraindication (edge) → upper respiratory tract disease (node)
+
+Entity: Chronic rhinitis
+Reason: Chronic rhinitis represents long-term inflammation of the nasal passages, a core component of upper respiratory disease.
+Path (exact): Chronic rhinitis (node) → phenotype_phenotype (edge) → Rhinitis (node) → drug_effect (edge) → Budesonide (node) → contraindication (edge) → upper respiratory tract disease (node)

@@ -1,0 +1,20 @@
+Disease: cardiovascular disease
+
+Entity: Malignant essential hypertension
+Reason: Direct severe form of essential hypertension; strongest diagnostic correlate and predictor of hypertensive target-organ injury.
+Path (similar (score=0.920)): malignant hypertension (node) → disease_protein (edge) → AGT (node) → drug_protein (edge) → Zinc (node) → exposure_disease (edge) → cardiovascular disease (node)
+
+Entity: hypertensive heart disease
+Path (exact): hypertensive heart disease (node) → disease_disease (edge) → heart disease (node) → disease_disease (edge) → cardiovascular disease (node)
+
+Entity: chronic kidney disease
+Path (exact): chronic kidney disease (node) → contraindication (edge) → Potassium chloride (node) → contraindication (edge) → cardiovascular disease (node)
+
+Entity: congestive heart failure
+Path (exact): congestive heart failure (node) → contraindication (edge) → Potassium chloride (node) → contraindication (edge) → cardiovascular disease (node)
+
+Entity: intracerebral hemorrhage
+Path (exact): intracerebral hemorrhage (node) → contraindication (edge) → Ketorolac (node) → contraindication (edge) → cardiovascular disease (node)
+
+Entity: proteinuria
+Path (exact): proteinuria (node) → exposure_disease (edge) → Cadmium (node) → exposure_disease (edge) → cardiovascular disease (node)

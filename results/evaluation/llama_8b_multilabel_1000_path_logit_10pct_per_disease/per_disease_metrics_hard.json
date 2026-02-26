@@ -1,0 +1,122 @@
+[
+  {
+    "label_index": 0,
+    "label_name": "Acute myocardial infarction",
+    "support_total": 1234,
+    "support_positive": 82,
+    "support_negative": 1152,
+    "acc": 0.93354943273906,
+    "bacc": 0.5,
+    "auc": 0.5,
+    "aupr": 0.06645056726094004,
+    "f1": 0.0
+  },
+  {
+    "label_index": 1,
+    "label_name": "Chronic kidney disease",
+    "support_total": 1234,
+    "support_positive": 293,
+    "support_negative": 941,
+    "acc": 0.873581847649919,
+    "bacc": 0.8042964967194148,
+    "auc": 0.8042964967194148,
+    "aupr": 0.5931807079085758,
+    "f1": 0.7163636363636363
+  },
+  {
+    "label_index": 2,
+    "label_name": "Chronic obstructive pulmonary disease",
+    "support_total": 1234,
+    "support_positive": 235,
+    "support_negative": 999,
+    "acc": 0.8614262560777958,
+    "bacc": 0.7126466892424339,
+    "auc": 0.7126466892424339,
+    "aupr": 0.43232032008087573,
+    "f1": 0.5648854961832062
+  },
+  {
+    "label_index": 3,
+    "label_name": "Conduction disorders",
+    "support_total": 1234,
+    "support_positive": 33,
+    "support_negative": 1201,
+    "acc": 0.9627228525121556,
+    "bacc": 0.6566749930613378,
+    "auc": 0.6566749930613377,
+    "aupr": 0.12259010573435208,
+    "f1": 0.3235294117647059
+  },
+  {
+    "label_index": 4,
+    "label_name": "Coronary atherosclerosis and related",
+    "support_total": 1234,
+    "support_positive": 464,
+    "support_negative": 770,
+    "acc": 0.8711507293354943,
+    "bacc": 0.8350873264666369,
+    "auc": 0.8350873264666369,
+    "aupr": 0.7754687691592893,
+    "f1": 0.8010012515644556
+  },
+  {
+    "label_index": 5,
+    "label_name": "Diabetes mellitus without complication",
+    "support_total": 1234,
+    "support_positive": 504,
+    "support_negative": 730,
+    "acc": 0.8128038897893031,
+    "bacc": 0.782504348771472,
+    "auc": 0.782504348771472,
+    "aupr": 0.7062780080228637,
+    "f1": 0.7291910902696366
+  },
+  {
+    "label_index": 6,
+    "label_name": "Essential hypertension",
+    "support_total": 1234,
+    "support_positive": 596,
+    "support_negative": 638,
+    "acc": 0.8816855753646677,
+    "bacc": 0.8783451852475227,
+    "auc": 0.8783451852475227,
+    "aupr": 0.8619788833987796,
+    "f1": 0.8643122676579925
+  },
+  {
+    "label_index": 7,
+    "label_name": "Gastrointestinal hemorrhage",
+    "support_total": 1234,
+    "support_positive": 356,
+    "support_negative": 878,
+    "acc": 0.7025931928687196,
+    "bacc": 0.5004159094980932,
+    "auc": 0.5004159094980932,
+    "aupr": 0.2886680682102531,
+    "f1": 0.04177545691906005
+  },
+  {
+    "label_index": 8,
+    "label_name": "Pneumonia",
+    "support_total": 1234,
+    "support_positive": 285,
+    "support_negative": 949,
+    "acc": 0.7674230145867099,
+    "bacc": 0.50017377479526,
+    "auc": 0.50017377479526,
+    "aupr": 0.23102306008132162,
+    "f1": 0.006920415224913495
+  },
+  {
+    "label_index": 9,
+    "label_name": "Shock",
+    "support_total": 1234,
+    "support_positive": 153,
+    "support_negative": 1081,
+    "acc": 0.8760129659643436,
+    "bacc": 0.5,
+    "auc": 0.5,
+    "aupr": 0.1239870340356564,
+    "f1": 0.0
+  }
+]

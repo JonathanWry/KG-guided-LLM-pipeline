@@ -1,0 +1,34 @@
+Disease: Gastrointestinal hemorrhage
+
+Entity: Esophageal varices with bleeding
+Reason: This is a direct cause of gastrointestinal hemorrhage, commonly due to portal hypertension associated with liver disease.
+Path (exact (case-insensitive)): esophageal varices with bleeding (node) → off-label use (edge) → Octreotide (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)
+
+Entity: Alcohol abuse, unspecified
+Reason: Chronic alcohol abuse can lead to liver cirrhosis, which predisposes to gastrointestinal hemorrhage through varices or gastritis.
+Path (similar (score=0.863)): Alcoholism (node) → disease_phenotype_positive (edge) → substance abuse/dependence (node) → contraindication (edge) → Fosphenytoin (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)
+
+Entity: Alcoholic fatty liver
+Reason: A manifestation of chronic alcohol use, this condition can progress to cirrhosis and portal hypertension, increasing the risk of gastrointestinal bleeding.
+Path (similar (score=0.882)): alcoholic hepatitis (node) → disease_protein (edge) → CCL5 (node) → protein_protein (edge) → APC (node) → phenotype_protein (edge) → Gastrointestinal hemorrhage (node)
+Path (similar (score=0.858)): alcoholic liver cirrhosis (node) → disease_protein (edge) → CAT (node) → disease_protein (edge) → Behcet disease (node) → disease_phenotype_positive (edge) → Gastrointestinal hemorrhage (node)
+
+Entity: Portal vein thrombosis
+Reason: This condition leads to increased portal pressure and development of varices, a common cause of upper GI bleeding.
+Path (exact): Portal vein thrombosis (node) → disease_phenotype_positive (edge) → acquired polycythemia vera (node) → disease_phenotype_positive (edge) → Gastrointestinal hemorrhage (node)
+
+Entity: Warfarin
+Reason: As an anticoagulant, warfarin significantly increases the risk of gastrointestinal bleeding, especially in patients with peptic ulcers or mucosal lesions.
+Path (exact): Warfarin (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)
+
+Entity: Sideroblastic anemia
+Reason: While not a cause, this anemia could be a consequence of chronic blood loss from gastrointestinal hemorrhage.
+Path (exact): Sideroblastic anemia (node) → disease_phenotype_positive (edge) → Wolfram syndrome (node) → disease_phenotype_positive (edge) → Gastrointestinal hemorrhage (node)
+
+Entity: Deficiency of vitamin K
+Reason: Vitamin K deficiency impairs clotting and can contribute to bleeding, including gastrointestinal hemorrhage.
+Path (similar (score=0.922)): Low levels of vitamin K (node) → disease_phenotype_positive (edge) → polycystic kidney disease (node) → disease_phenotype_positive (edge) → Gastrointestinal hemorrhage (node)
+
+Entity: esophageal varices
+Reason: This procedure is used to treat a known source of gastrointestinal bleeding, indicating a history of GI hemorrhage.
+Path (exact): esophageal varices (node) → off-label use (edge) → Octreotide (node) → drug_effect (edge) → Gastrointestinal hemorrhage (node)

@@ -1,0 +1,36 @@
+Disease: Coronary atherosclerosis and related
+
+Entity: Congestive heart failure, unspecified
+Reason: Coronary atherosclerosis can reduce myocardial oxygen supply, leading to ischemic cardiomyopathy and eventually congestive heart failure.
+Path (similar (score=0.984)): Congestive heart failure (node) → drug_effect (edge) → Propafenone (node) → contraindication (edge) → coronary atherosclerosis (node)
+Path (similar (score=0.983)): congestive heart failure (node) → contraindication (edge) → Histamine (node) → contraindication (edge) → coronary atherosclerosis (node)
+
+Entity: Malignant essential hypertension
+Reason: Uncontrolled hypertension accelerates the development of coronary atherosclerosis by damaging arterial walls and promoting plaque formation.
+Path (similar (score=0.920)): malignant hypertension (node) → disease_protein (edge) → AGT (node) → protein_protein (edge) → ACE (node) → disease_protein (edge) → coronary atherosclerosis (node)
+
+Entity: diabetes mellitus (disease)
+Reason: Diabetes is a major risk factor for coronary atherosclerosis due to its contribution to endothelial dysfunction and systemic inflammation.
+Path (exact): diabetes mellitus (disease) (node) → contraindication (edge) → Phenylephrine (node) → contraindication (edge) → coronary atherosclerosis (node)
+
+Entity: Obesity, unspecified
+Reason: Obesity is a strong modifiable risk factor that increases the likelihood of atherosclerosis through dyslipidemia, inflammation, and insulin resistance.
+Path (similar (score=0.966)): obesity disorder (node) → contraindication (edge) → Naproxen (node) → contraindication (edge) → coronary atherosclerosis (node)
+Path (similar (score=0.857)): morbid obesity (node) → contraindication (edge) → Phenylephrine (node) → contraindication (edge) → coronary atherosclerosis (node)
+
+Entity: Aortic valve stenosis
+Reason: Aortic stenosis and coronary atherosclerosis commonly coexist in the elderly and can both contribute to impaired myocardial perfusion.
+Path (exact (case-insensitive)): aortic valve stenosis (node) → contraindication (edge) → Felodipine (node) → contraindication (edge) → coronary atherosclerosis (node)
+
+Entity: Cerebral atherosclerosis
+Reason: Cerebral and coronary atherosclerosis often occur together as part of systemic atherosclerotic vascular disease.
+Path (exact (case-insensitive)): cerebral atherosclerosis (node) → disease_disease (edge) → atherosclerosis (node) → disease_disease (edge) → coronary atherosclerosis (node)
+
+Entity: hypertensive heart disease
+Reason: This reflects end-organ damage from chronic hypertension, a key contributor to both coronary atherosclerosis and related vascular complications.
+Path (exact): hypertensive heart disease (node) → disease_disease (edge) → heart disease (node) → contraindication (edge) → Phenylephrine (node) → contraindication (edge) → coronary atherosclerosis (node)
+
+Entity: Primary pulmonary hypertension
+Reason: While distinct, pulmonary hypertension can co-occur in patients with left-sided heart disease due to coronary atherosclerosis and resultant heart failure.
+Path (similar (score=0.990)): pulmonary hypertension, primary (node) → disease_phenotype_positive (edge) → Dyspnea (node) → phenotype_protein (edge) → NPPB (node) → disease_protein (edge) → coronary atherosclerosis (node)
+Path (similar (score=0.909)): pulmonary hypertension (node) → contraindication (edge) → Histamine (node) → contraindication (edge) → coronary atherosclerosis (node)

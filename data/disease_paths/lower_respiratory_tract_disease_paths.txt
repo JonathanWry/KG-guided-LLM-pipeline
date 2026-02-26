@@ -1,0 +1,34 @@
+Disease: lower respiratory tract disease
+
+Entity: Acute bronchitis
+Reason: Acute bronchitis is a direct inflammation of the lower respiratory tract, causing cough and sputum production — a primary component of lower respiratory diseases.
+Path (exact): Acute bronchitis (node) → phenotype_phenotype (edge) → Bronchitis (node) → drug_effect (edge) → Budesonide (node) → contraindication (edge) → lower respiratory tract disease (node)
+
+Entity: Bronchitis, not specified as acute or chronic
+Reason: This condition represents chronic or unspecified inflammation of the bronchial tubes, which is a defining pathology of other lower respiratory diseases.
+Path (similar (score=0.898)): Bronchitis (node) → drug_effect (edge) → Budesonide (node) → contraindication (edge) → lower respiratory tract disease (node)
+Path (similar (score=0.897)): bronchitis (node) → disease_disease (edge) → respiratory system disease (node) → disease_disease (edge) → lower respiratory tract disease (node)
+
+Entity: Bronchopneumonia, organism unspecified
+Reason: Bronchopneumonia involves infection and inflammation within the lower respiratory airways and alveoli, aligning closely with the clinical presentation of lower respiratory diseases.
+Path (similar (score=0.941)): bronchopneumonia (node) → disease_disease (edge) → pneumonia (node) → exposure_disease (edge) → Nitrogen Dioxide (node) → exposure_disease (edge) → respiratory system disease (node) → disease_disease (edge) → lower respiratory tract disease (node)
+
+Entity: Postinflammatory pulmonary fibrosis
+Reason: Pulmonary fibrosis can develop as a chronic sequela of lower respiratory diseases, characterized by scarring and reduced lung function following inflammation.
+Path (exact (case-insensitive)): postinflammatory pulmonary fibrosis (node) → contraindication (edge) → Carmustine (node) → drug_drug (edge) → Mometasone furoate (node) → contraindication (edge) → lower respiratory tract disease (node)
+
+Entity: Asbestosis
+Reason: Asbestosis is a chronic restrictive lower respiratory disease caused by inhalation of asbestos fibers, leading to pulmonary fibrosis and respiratory insufficiency.
+Path (exact (case-insensitive)): asbestosis (node) → disease_phenotype_positive (edge) → Wheezing (node) → drug_effect (edge) → Beclomethasone dipropionate (node) → contraindication (edge) → lower respiratory tract disease (node)
+
+Entity: pulmonary non-tuberculous mycobacterial infection
+Reason: These infections target the lower respiratory system, mimicking tuberculosis-like chronic pulmonary diseases, thus fitting within the spectrum of lower respiratory disorders.
+Path (exact): pulmonary non-tuberculous mycobacterial infection (node) → disease_disease (edge) → lung disease (node) → disease_disease (edge) → lower respiratory tract disease (node)
+
+Entity: Bronchitis
+Reason: This reflects occupational or environmental exposure-induced inflammation of the lower respiratory tract, leading to chronic or acute bronchopulmonary disease.
+Path (exact): Bronchitis (node) → drug_effect (edge) → Budesonide (node) → contraindication (edge) → lower respiratory tract disease (node)
+
+Entity: Acute cor pulmonale
+Reason: Acute cor pulmonale can result from severe lower respiratory disease (e.g., pulmonary embolism, pneumonia, or bronchospasm), representing a complication of such disorders.
+Path (exact (case-insensitive)): acute cor pulmonale (node) → disease_disease (edge) → acute disease (node) → exposure_disease (edge) → Dichlorvos (node) → exposure_disease (edge) → respiratory system disease (node) → disease_disease (edge) → lower respiratory tract disease (node)
