@@ -183,7 +183,6 @@ If you find our work useful for your research and applications, please cite usin
   title     = {Knowledge Graph Augmented Large Language Models for Disease Prediction},
   author    = {Wang, Ruiyu and Vinh, Tuan and Xu, Ran and Zhou, Yuyin and Lu, Jiaying and Pasquel, Francisco and Ali, Mohammed and Yang, Carl},
   booktitle = {Proceedings of the American Medical Informatics Association Informatics Summit (AMIA)},
-  note      = {Oral presentation},
   year      = {2026}
 }
 ```
