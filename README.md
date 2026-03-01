@@ -1,4 +1,8 @@
-# KG-Aided LLM Finetuning
+<h1 align="center"> 🩺 Knowledge Graph Augmented Large Language Models for Disease Prediction  </h1>
+
+<p align="center">
+  📃 <a href ="https://arxiv.org/pdf/2512.01210" target="_blank">Paper</a> 
+</p>
 
 ## 🧠 1. Project Summary
 Electronic health records (EHRs) support strong prediction but often provide coarse, post hoc explanations that are hard to use for patient-level decisions. This repository implements a **KG-guided chain-of-thought (CoT)** framework for next-visit disease prediction on MIMIC-III. We map ICD-9 concepts to PrimeKG, mine disease-relevant nodes and shortest paths, generate CoT with KG evidence, and keep only samples whose final conclusion matches observed outcomes. The final release here keeps the **KG-guided LLaMA-3.1-Instruct-8B pipeline only**.
