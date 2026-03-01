@@ -1,4 +1,4 @@
-<h1 align="center"> 🩺 Knowledge Graph Augmented Large Language Models for Disease Prediction  </h1>
+<h1 align="center"> 🩺 Knowledge Graph Augmented LLMs for Disease Prediction  </h1>
 
 <p align="center">
   📃 <a href ="https://arxiv.org/pdf/2512.01210" target="_blank">Paper</a> 
