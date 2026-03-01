@@ -25,9 +25,10 @@ The implemented pipeline is:
 5. **Fine-tuning + Evaluation**: train LLaMA-3.1-Instruct-8B on filtered KG-guided CoT and evaluate multilabel metrics.
 
 Pipeline figures:
+<img width="4975" height="1477" alt="arch_1" src="https://github.com/user-attachments/assets/b6f311de-845b-4aad-9131-db001030ac6a" />
+<img width="4919" height="2402" alt="arch_2 (1)" src="https://github.com/user-attachments/assets/ecd33933-1215-4430-8fa8-48b6c76ff80e" />
 
-![General pipeline for KG-guided CoT data generation](fig/arch_1.png)
-![KG-guided CoT generation and filtering](fig/arch_2.png)
+
 
 ## 🗃️ 4. Data
 This repository keeps only final artifacts required for the KG-guided pipeline.
